@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibi Shanthan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d5d001c7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="far fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="far fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm<br><span>Sibi Shanthan</span></h1>
+                <div class="typewriter">
+                    <span class="text first-text">Web developer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------About Section--------->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Highly skilled software developer proficient in coding languages such as Java, Python, C, C++, and JavaScript. Experienced in AI, SQL, Flutter, CSS, web & app development, IoT, and MongoDB. Passionate about creating innovative solutions and delivering high-quality projects. Let's connect and collaborate on transformative endeavors.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>UI/U</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>U/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------Services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Development</h2>
+                    <p>As a web developer, I'm on a journey to create captivating digital experiences!
+
+                        🌐 Crafting with HTML, CSS, and JavaScript for responsive websites is my passion.
+                        
+                        🔍 Problem-solving fuels me, and I'm eager to learn from experienced developers.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                    <p>As a software developer, I'm weaving code into innovative solutions!
+
+                        💻 I thrive on turning ideas into functional software using languages like C/C++, Python, Java.
+                        
+                        🔍 Problem-solving is my superpower, and I'm constantly exploring new technologies.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analyst</h2>
+                    <p>As a data analyst, I'm transforming raw data into actionable insights!
+
+                        📊 Fluent in languages like Python, SQL, Excel, R.
+                        
+                        🔍 Problem-solving is my forte, as I uncover trends and patterns to drive informed decisions.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------Portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Revolutionize connections with our innovative social media app that empowers authentic interactions and meaningful relationships.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Elevate your melodies with our immersive music app, delivering a symphony of personalized tunes at your fingertips.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-3.png">
+                    <div class="layer">
+                        <h3>Online App</h3>
+                        <p>Shop the future with our online retail app, offering a seamless digital marketplace for all your desires.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </div>
+    <!--------------Contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shanthansibi5@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8610397203</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sibi-shanthan-046119218/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/sibishanthan"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/sibi.shanthan"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sibishanthan/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Sibi Shanthan <i class="fa-solid fa-bolt"></i></p>
+        </div>
+    </div>
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>    
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxRrQC8qqc7Z6sSH71M9PCWFgL3br9qrbM4ESO6mOZn5SjYTlUs_LYtyoro40cqBi2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Submitted Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+</script>
+
+<script>
+
+    const text =  document.querySelector(".first-text");
+
+    const textLoad = () => {
+        setTimeout(() => {
+            text.textContent = "Web Developer";
+        },0);
+        setTimeout(() => {
+            text.textContent = "Data Scientist";
+        },4000);
+        setTimeout(() => {
+            text.textContent = "App Developer";
+        },8000);
+    }
+
+    textLoad();
+    setInterval(textLoad,12000)
+
+</script>
+
+</body>
+</html>
